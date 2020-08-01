@@ -12,8 +12,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btn_count.setOnClickListener {
+        btn_count_forward.setOnClickListener {
             counter++
+            tv_output.text = counter.toString()
+        }
+
+        btn_count_backward.setOnClickListener {
+            counter--
             tv_output.text = counter.toString()
         }
     }
