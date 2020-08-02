@@ -21,5 +21,10 @@ class MainActivity : AppCompatActivity() {
             counter--
             tv_output.text = counter.toString()
         }
+
+        btn_count_reset.setOnClickListener {
+            counter = 0
+            tv_output.text = counter.toString()
+        }
     }
 }

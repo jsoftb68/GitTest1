@@ -2,5 +2,6 @@
     <string name="app_name">GitTest1</string>
     <string name="forward">Forward</string>
     <string name="backward">Backward</string>
+    <string name="reset">Reset</string>
     <string name="output">Output</string>
 </resources>
