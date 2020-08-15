@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btn_count_reset.setOnClickListener {
-            counter = 30
+            counter = 25
             tv_output.text = counter.toString()
         }
     }
